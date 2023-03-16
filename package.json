@@ -7,7 +7,9 @@
   "scripts": {
     "lint": "prettier --write . && eslint src/ --fix --ext .js,.jsx,.ts,.tsx --",
     "build": "tsc",
-    "start": "node dist/app.js"
+    "start": "node dist/app.js",
+    "oa2ks": "swagger-codegen generate -i output/openapi-docs.json -l kotlin-server -o output/kotlin-server",
+    "oa2sp": "swagger-codegen generate -i output/openapi-docs.json -l spring -o output/spring"
   },
   "dependencies": {
     "@asteasolutions/zod-to-openapi": "^4.4.2",
