@@ -11,10 +11,9 @@ The following tools must already be present to perform the remaining steps:
 - `node`
 - `yarn`
 - `tsc`
-- `prettier`
 - `eslint`
 
-You may be able to install these using `brew`.
+You can install these using `brew` or `nodenv` (for `node`).
 
 ## Install Dependencies
 
@@ -35,4 +34,5 @@ yarn start
 ```
 
 This step performs the Zod to OpenApi example generation, with the output
-writing results to `output/openapi-docs.json`.
+writing results to `output/openapi-docs.json`, a sample output of which is
+included in this repository.
