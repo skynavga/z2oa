@@ -54,7 +54,7 @@ which is included in this repository.
 The resulting OpenApi specification may be used to generate a Java
 Spring Server by using the `swagger-codegen` tool via
 
-```yarn
+```yarnl
 yarn run oa2sp
 ```
 
