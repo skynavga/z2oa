@@ -2,7 +2,7 @@
 # z2oa (zod-to-openapi example)
 
 This repository contains a simple example of using
-[`zod-to-openapi](https://github.com/asteasolutions/zod-to-openapi).
+[`zod-to-openapi`](https://github.com/asteasolutions/zod-to-openapi).
 
 ## Prerequisites
 
