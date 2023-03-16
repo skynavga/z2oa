@@ -1,0 +1,19 @@
+# yarn artifacts
+node_modules/
+yarn-error.log
+
+# build artifacts
+dist/
+
+# run artifacts
+output/
+
+# miscellaneous
+.idea/
+.DS_Store
+*~
+*.bak
+
+
+
+
