@@ -6,7 +6,7 @@
   },
   "servers": [
     {
-      "url": "v1"
+      "url": "https://localhost:8443/api/v1"
     }
   ],
   "openapi": "3.0.0",
@@ -85,7 +85,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Key list data.",
+            "description": "Key list data",
             "content": {
               "application/json": {
                 "schema": {

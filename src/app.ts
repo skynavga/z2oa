@@ -53,7 +53,7 @@ registry.registerPath({
   security: [{ [bearerAuth.name]: [] }],
   responses: {
     200: {
-      description: 'Key list data.',
+      description: 'Key list data',
       content: {
         'application/json': {
           schema: KeyListSchema,
@@ -75,7 +75,7 @@ function getOpenApiDocumentation() {
       title: 'My API',
       description: 'This is the API',
     },
-    servers: [{ url: 'v1' }],
+    servers: [{ url: 'https://localhost:8443/api/v1' }],
   })
 }
 

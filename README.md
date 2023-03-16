@@ -1,4 +1,3 @@
-
 # z2oa (zod-to-openapi example)
 
 This repository contains a simple example of using
@@ -21,7 +20,7 @@ You can install these using `brew` or `nodenv` (for `node`).
 yarn install
 ```
 
-##  Build Distribution
+## Build Distribution
 
 ```yarn
 yarn build
