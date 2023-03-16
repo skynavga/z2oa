@@ -34,5 +34,5 @@ yarn start
 ```
 
 This step performs the Zod to OpenApi example generation, with the output
-writing results to `output/openapi-docs.json`, a sample output of which is
+written to `output/openapi-docs.json`, a sample of which is
 included in this repository.
